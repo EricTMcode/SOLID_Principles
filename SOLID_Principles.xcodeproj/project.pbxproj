@@ -17,6 +17,8 @@
 		078B038C2A66D89200883AAB /* OCP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B038B2A66D89200883AAB /* OCP_After.swift */; };
 		078B038F2A66DCE700883AAB /* LSP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B038E2A66DCE700883AAB /* LSP_After.swift */; };
 		078B03912A66DCEE00883AAB /* LSP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B03902A66DCEE00883AAB /* LSP_Before.swift */; };
+		078B03942A6800FB00883AAB /* ISP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B03932A6800FB00883AAB /* ISP_After.swift */; };
+		078B03962A68010700883AAB /* ISP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B03952A68010700883AAB /* ISP_Before.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		078B038B2A66D89200883AAB /* OCP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP_After.swift; sourceTree = "<group>"; };
 		078B038E2A66DCE700883AAB /* LSP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_After.swift; sourceTree = "<group>"; };
 		078B03902A66DCEE00883AAB /* LSP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_Before.swift; sourceTree = "<group>"; };
+		078B03932A6800FB00883AAB /* ISP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP_After.swift; sourceTree = "<group>"; };
+		078B03952A68010700883AAB /* ISP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP_Before.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				078B03832A66D47B00883AAB /* 1_SingleResponsibilityPrinciple */,
 				078B03882A66D87600883AAB /* 2_OpenClosedPrinciple */,
 				078B038D2A66DCCA00883AAB /* 3_LiskovSubstitutionPrinciple */,
+				078B03922A6800E500883AAB /* 4_InterfaceSegregationPrinciple */,
 				078B03752A66D43900883AAB /* SOLID_PrinciplesApp.swift */,
 				078B03772A66D43900883AAB /* ContentView.swift */,
 				078B03792A66D43B00883AAB /* Assets.xcassets */,
@@ -107,6 +112,15 @@
 				078B03902A66DCEE00883AAB /* LSP_Before.swift */,
 			);
 			path = 3_LiskovSubstitutionPrinciple;
+			sourceTree = "<group>";
+		};
+		078B03922A6800E500883AAB /* 4_InterfaceSegregationPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				078B03932A6800FB00883AAB /* ISP_After.swift */,
+				078B03952A68010700883AAB /* ISP_Before.swift */,
+			);
+			path = 4_InterfaceSegregationPrinciple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +195,8 @@
 			files = (
 				078B03872A66D4A800883AAB /* SRP_After.swift in Sources */,
 				078B038F2A66DCE700883AAB /* LSP_After.swift in Sources */,
+				078B03942A6800FB00883AAB /* ISP_After.swift in Sources */,
+				078B03962A68010700883AAB /* ISP_Before.swift in Sources */,
 				078B038C2A66D89200883AAB /* OCP_After.swift in Sources */,
 				078B038A2A66D88B00883AAB /* OCP_Before.swift in Sources */,
 				078B03912A66DCEE00883AAB /* LSP_Before.swift in Sources */,
