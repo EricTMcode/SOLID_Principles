@@ -19,6 +19,8 @@
 		078B03912A66DCEE00883AAB /* LSP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B03902A66DCEE00883AAB /* LSP_Before.swift */; };
 		078B03942A6800FB00883AAB /* ISP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B03932A6800FB00883AAB /* ISP_After.swift */; };
 		078B03962A68010700883AAB /* ISP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B03952A68010700883AAB /* ISP_Before.swift */; };
+		078B03992A69535B00883AAB /* DIP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B03982A69535B00883AAB /* DIP_After.swift */; };
+		078B039B2A69536700883AAB /* DIP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B039A2A69536700883AAB /* DIP_Before.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		078B03902A66DCEE00883AAB /* LSP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_Before.swift; sourceTree = "<group>"; };
 		078B03932A6800FB00883AAB /* ISP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP_After.swift; sourceTree = "<group>"; };
 		078B03952A68010700883AAB /* ISP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP_Before.swift; sourceTree = "<group>"; };
+		078B03982A69535B00883AAB /* DIP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP_After.swift; sourceTree = "<group>"; };
+		078B039A2A69536700883AAB /* DIP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP_Before.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 				078B03882A66D87600883AAB /* 2_OpenClosedPrinciple */,
 				078B038D2A66DCCA00883AAB /* 3_LiskovSubstitutionPrinciple */,
 				078B03922A6800E500883AAB /* 4_InterfaceSegregationPrinciple */,
+				078B03972A69534A00883AAB /* 5_DepencencyInversionPrinciple */,
 				078B03752A66D43900883AAB /* SOLID_PrinciplesApp.swift */,
 				078B03772A66D43900883AAB /* ContentView.swift */,
 				078B03792A66D43B00883AAB /* Assets.xcassets */,
@@ -121,6 +126,15 @@
 				078B03952A68010700883AAB /* ISP_Before.swift */,
 			);
 			path = 4_InterfaceSegregationPrinciple;
+			sourceTree = "<group>";
+		};
+		078B03972A69534A00883AAB /* 5_DepencencyInversionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				078B03982A69535B00883AAB /* DIP_After.swift */,
+				078B039A2A69536700883AAB /* DIP_Before.swift */,
+			);
+			path = 5_DepencencyInversionPrinciple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,10 +209,12 @@
 			files = (
 				078B03872A66D4A800883AAB /* SRP_After.swift in Sources */,
 				078B038F2A66DCE700883AAB /* LSP_After.swift in Sources */,
+				078B039B2A69536700883AAB /* DIP_Before.swift in Sources */,
 				078B03942A6800FB00883AAB /* ISP_After.swift in Sources */,
 				078B03962A68010700883AAB /* ISP_Before.swift in Sources */,
 				078B038C2A66D89200883AAB /* OCP_After.swift in Sources */,
 				078B038A2A66D88B00883AAB /* OCP_Before.swift in Sources */,
+				078B03992A69535B00883AAB /* DIP_After.swift in Sources */,
 				078B03912A66DCEE00883AAB /* LSP_Before.swift in Sources */,
 				078B03852A66D49800883AAB /* SRP_Before.swift in Sources */,
 				078B03782A66D43900883AAB /* ContentView.swift in Sources */,
